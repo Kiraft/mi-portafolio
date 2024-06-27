@@ -4,7 +4,7 @@ export default function CardProject({ project }) {
 
     return (
         <div className="group bg-[#07131d] flex flex-col items-center relative rounded-[20px] overflow-hidden" >
-            <a href="">
+            <a href={url} target="_blank">
                 <img src={`/img/projects/${imgs[0]}`} alt="" className="w-[800px]" />
 
                 <div className="group-hover:block hidden project-items-info absolute top-0 left-0 w-[100%] h-[100%] bg-black bg-opacity-25 backdrop-blur-sm ">

@@ -4,7 +4,7 @@ export const projects = [
         title: "RestoOrder",
         imgs: ["restoorder/restoorder-main.png", "restoorder/restoorder-login.jpg", "restoorder/restoorder-historial.jpg", "restoorder/restoorder-profile.jpg"],
         descripcion: "Aplicacion para gestion de comandas dentro del restaurante",
-        url: "",
+        url: "https://github.com/Kiraft/restoorder-app",
         tecnologias: [
             {
                 tecnologia: "JavaFX",
@@ -21,7 +21,7 @@ export const projects = [
         title: "Calculadora Sistemas Numericos",
         imgs: ["calculadora/calculadora-main.png"],
         descripcion: "Calculadora de sistemas numericos",
-        url: "",
+        url: "https://github.com/Kiraft/calculadora-sistemas-numericos",
         tecnologias: ["JavaFX"]
     },
     {
@@ -29,7 +29,7 @@ export const projects = [
         title: "TramiTec",
         imgs: ["tramitec/tramitec-main.png", "tramitec/tramitec-login.jpg", "tramitec/tramitec-home.jpg", "tramitec/tramitec-status.jpg"],
         descripcion: "Aplicacion de gestion de subida de documentos para realizar tramites escolares",
-        url: "",
+        url: "https://github.com/Kiraft/trami-tec-intellj",
         tecnologias: [
             {
                 tecnologia: "JavaFX",
@@ -46,7 +46,7 @@ export const projects = [
         title: "ScannerTec",
         imgs: ["scanner/scannertec-main.png", "scannertec-login.jpg", "scannertec-product.jpg", "scannertec-registros.jpg"],
         descripcion: "Aplicacion para gestionar productos usando codigo de barras",
-        url: "",
+        url: "https://github.com/Kiraft/scann-tec",
         tecnologias: [
             {
                 tecnologia: "JavaFX",
