@@ -1,61 +1,35 @@
 
 import Header from "./components/Header/Header";
-import CardProject from "./components/CardProject/CardProject";
 import MainContent from "./components/MainContent/MainContent";
-import { projects } from "./data/projectsData"
+import Contact from "./components/ContactContent/Contact";
+import ProjectsContent from "./components/ProjectsContent/ProjectContent";
 
 function App() {
 
   return (
-    <>
+    <div className="bg-[#091A28] text-[white]">
+
       <Header />
 
-      <main>
+      <main className=" max-w-[1500px] m-auto">
+    
         <MainContent />
-        <h1>Proyectos</h1>
-        <div className="container-projects">
 
-          {projects.map( (project) => (
-            <CardProject key = {project.id} project = {project} />
-          ))}
-         
-        </div>
+        <ProjectsContent/>
 
-        <h1>Habilidades</h1>
-        <div className="container-stack">
-          <ul>
-            <li>
-              <div>
-
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <h1>Contacto</h1>
-        <div className="container-stack">
-          <ul>
-            <li>
-              <div>
-
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <footer className="contaner-footer">
+        {/* <Contact/> */}
+      </main>
+        <footer className="flex justify-center mt-[100px]">
           <div className="footer-social">
-            <ul>
-              <li><a href="#"> Twitter</a></li>
-              <li><a href="#"> Facebook</a></li>
-              <li><a href="#"> Github</a></li>
-              <li><a href="#"> Instagram</a></li>
-              <li><a href="#"> Youtube</a></li>
+            <ul className="flex gap-[10px]">
+              <li><span>Construido por</span></li>
+              <li><a href="#"> Jonathan Osvaldo</a></li>
+              <li><span>con</span></li>
+              <li><a href="https://react.dev/"> ReactJS</a></li>
             </ul>
           </div>
         </footer>
-      </main>
-    </>
+    </div> 
   )
 }
 
