@@ -11,7 +11,8 @@ export default function MainContent() {
                     <p className="text-2xl w-[700px]">Desarrollador con 4 años de experiencia, egresado del Tecnológico Nacional de México en la carrera de Ingeniería en Sistemas Computacionales. Autodidacta y apasionado por aprender cosas nuevas en el mundo del desarrollo de software.</p>
                     <div className="mt-[20px]">
                         <a className="w-[fit-content] inline-block mr-[35px] py-[12.5px] px-[35px] rounded-[20px] border-[2px] border-solid border-white" href="#">Descargar CV</a>
-                        <a className="w-[fit-content] inline-block py-[12.5px] px-[35px] rounded-[20px] border-[2px] border-solid border-white" href="https://github.com/Kiraft" target="_blank">GitHub</a>
+                        <a className="w-[fit-content] inline-block mr-[35px] py-[12.5px] px-[35px] rounded-[20px] border-[2px] border-solid border-white" href="https://github.com/Kiraft" target="_blank">GitHub</a>
+                        <a className="w-[fit-content] inline-block py-[12.5px] px-[35px] rounded-[20px] border-[2px] border-solid border-white" href="https://www.linkedin.com/in/jonathan-osvaldo-bustamante-monroy-777137191/" target="_blank">LinkedIn</a>
                     </div>
                 </div>
             </div>

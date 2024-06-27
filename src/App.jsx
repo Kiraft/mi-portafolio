@@ -11,7 +11,7 @@ function App() {
 
       <Header />
 
-      <main className=" max-w-[1500px] m-auto">
+      <main className=" max-w-[1300px] m-auto">
     
         <MainContent />
 

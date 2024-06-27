@@ -2,7 +2,7 @@
 
 export default function Header() {
     return (
-        <header className="p-[10px] text-3xl top-0 left-[50%]">
+        <header className="p-[10px] text-2xl top-0 left-[50%]">
             <div className="flex items-center justify-between pl-[200px] pr-[200px]">
 
                 <div>
